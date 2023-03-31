@@ -23,10 +23,10 @@ where $\alpha$ is the learning rate and $\frac{\partial J}{\partial \beta_j}$ is
 $$\frac{\partial J}{\partial \beta_j} = \frac{1}{m} \sum_{i=1}^{m}(h_{\beta}(x^{(i)}) - y^{(i)})x_j^{(i)}$$
 
 # Usage
-* Clone this repository: git clone https://github.com/zillur-av/logistic-regression-gradient-descent.git
-* Navigate to the project directory: cd logistic-regression-gradient-descent
-* Open Jupyter Notebook: jupyter notebook
-* Run the logistic-regression-gradient-descent.ipynb file
+* Clone this repository: ```git clone https://github.com/zillur-av/logistic-regression-gradient-descent.git```
+* Navigate to the project directory: ```cd logistic-regression-gradient-descent```
+* Open Jupyter Notebook: ```jupyter notebook```
+* Run the ```logistic-regression-gradient-descent.ipynb``` file
 * Follow the instructions provided in the notebook to test the implementation with the provided dataset
 
 # Dependencies
