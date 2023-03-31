@@ -21,19 +21,19 @@ $$\beta_j := \beta_j - \alpha \frac{\partial J}{\partial \beta_j}$$
 
 where $\alpha$ is the learning rate and $\frac{\partial J}{\partial \beta_j}$ is the partial derivative of the cost function with respect to the $j$-th parameter.
 $$\frac{\partial J}{\partial \beta_j} = \frac{1}{m} \sum_{i=1}^{m}(h_{\beta}(x^{(i)}) - y^{(i)})x_j^{(i)}$$
+
 # Usage
-* Clone this repository: git clone https://github.com/your-username/logistic-regression-with-gradient-descent.git
-* Navigate to the project directory: cd logistic-regression-with-gradient-descent
+* Clone this repository: git clone https://github.com/zillur-av/logistic-regression-gradient-descent.git
+* Navigate to the project directory: cd logistic-regression-gradient-descent
 * Open Jupyter Notebook: jupyter notebook
-* Run the logistic_regression_gradient_descent.ipynb file
+* Run the logistic-regression-gradient-descent.ipynb file
 * Follow the instructions provided in the notebook to test the implementation with the provided dataset
+
 # Dependencies
 Python 3.x
 Numpy
 Pandas
 Matplotlib
-# Credits
-The implementation is based on the lecture notes from Andrew Ng's Machine Learning course on Coursera.
 
 # License
 This project is licensed under the MIT License. Feel free to use it however you like.
